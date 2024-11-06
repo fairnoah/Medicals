@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Medicals</string>
+    <string name="splash_continue_button">Continue</string>
+    <string name="login_password">Password</string>
+    <string name="login_email_adress">Email Adress</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="signup_log_in">Log in</string>
+    <string name="signup_continue_btn">Continue</string>
+    <string name="signup_policies">Policies</string>
+    <string name="signup_and">and</string>
+    <string name="signup_terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="signup_by_signing_up_you_agree_to_our">By signing up, you agree to our</string>
+    <string name="signup_mobile_no">Mobile No</string>
+    <string name="signup_full_name">Full Name</string>
+    <string name="signup_hello_gmail_com">hello@gmail.com</string>
+    <string name="signup_sign_up">Sign Up</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_continue_with_google">Continue with Google</string>
+    <string name="login_or">or</string>
+    <string name="login_continue_btn">Continue</string>
+    <string name="login_log_in">Log In</string>
+</resources>
