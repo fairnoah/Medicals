@@ -8,6 +8,17 @@
     tools:context=".LoginScreen">
 
     <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_screens" />
+
+    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="320dp"
         android:layout_height="318dp"
