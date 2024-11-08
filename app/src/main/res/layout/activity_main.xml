@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
     <ImageView
@@ -14,10 +15,12 @@
         android:layout_marginStart="185dp"
         android:layout_marginTop="356dp"
         android:layout_marginEnd="185dp"
+        android:importantForAccessibility="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/white"
         app:srcCompat="@drawable/medicallogo" />
 
     <Button
@@ -29,7 +32,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="80dp"
         android:background="@drawable/action_button"
-        android:text="Continue"
+        android:text="@string/splash_continue_btn"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
