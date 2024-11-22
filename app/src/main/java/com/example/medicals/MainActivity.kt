@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         splashContinueBtn.setOnClickListener {
             // Create an Intent to navigate to GenderActivity
-            val statusIntent = Intent(this, LoginScreen::class.java)
+            val statusIntent = Intent(this, SignUpScreen::class.java)
             startActivity(statusIntent)
         }
     }

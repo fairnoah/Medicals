@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/signupEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints="emailAddress"
@@ -71,17 +71,17 @@
             tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
         <EditText
-            android:id="@+id/editTextNumberPassword"
+            android:id="@+id/signupFullname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/signup_full_name"
-            android:inputType="numberPassword"
+            android:inputType="text"
             android:textSize="14sp"
             tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
 
         <EditText
-            android:id="@+id/editTextPhone"
+            android:id="@+id/signupPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints="numeric"
@@ -152,7 +152,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signupContinuBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -176,7 +176,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button">
+        app:layout_constraintTop_toBottomOf="@+id/signupContinuBtn">
 
         <TextView
             android:id="@+id/textView2"
